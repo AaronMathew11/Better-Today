@@ -3,5 +3,18 @@
         flex-direction: column;
         align-items: center;
     }
+    .foot{
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot>img{
+        margin-top: 50px;
+        width: 80% !important;
+    }
+}
+
+.foot{
+    background-image: linear-gradient(#343434,black);
+
 }
 

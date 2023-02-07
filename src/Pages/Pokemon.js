@@ -9,7 +9,13 @@ import "./pokemon.css";
 function Pokemon() {
   return (
     <div>
-      <div style={{ backgroundColor: "white", paddingBottom:"100px",marginBottom:"60px" }}>
+      <div
+        style={{
+          backgroundColor: "white",
+          paddingBottom: "100px",
+          marginBottom: "60px",
+        }}
+      >
         <Navbar />
         <div
           className='container pokerow'
@@ -53,8 +59,8 @@ function Pokemon() {
         </div>
       </div>
       <h1 style={{ color: "white", marginLeft: "50px" }}>Pokemon</h1>
-      <div style={{display:"flex", padding:"50px"}}>
-        <div style={{marginRight:"40px", fontSize:"20px"}}>
+      <div className='foot' style={{ display: "flex", padding: "50px" }}>
+        <div style={{ marginRight: "40px", fontSize: "20px" }}>
           Pokémon is a series of video games developed by Game Freak and
           published by Nintendo and The Pokémon Company under the Pokémon media
           franchise. It was created by Satoshi Tajiri with assistance from Ken
@@ -69,7 +75,7 @@ function Pokemon() {
         <img
           src='https://cdn.vox-cdn.com/thumbor/LUsqStWnz_wbJCqgBJqUoAVdafw=/0x0:1920x1080/1200x800/filters:focal(807x387:1113x693)/cdn.vox-cdn.com/uploads/chorus_image/image/71856361/Ash_Ketchum_World_Champion_Screenshot_4.0.jpg'
           alt=''
-          style={{objectFit:"contain", width:"40vw"}}
+          style={{ objectFit: "contain", width: "40vw" }}
         />
       </div>
     </div>
