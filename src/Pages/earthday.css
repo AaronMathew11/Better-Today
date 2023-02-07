@@ -1,0 +1,16 @@
+
+h1,h2{
+    margin-bottom: 40px;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 981px){
+    .content{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+}

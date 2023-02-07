@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import EarthDay from "./Pages/EarthDay";
+import Pokemon from "./Pages/Pokemon";
+
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<EarthDay />}></Route>
+          <Route exact path='/Pokemon' element={<Pokemon />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

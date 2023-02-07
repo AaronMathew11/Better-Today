@@ -1,0 +1,25 @@
+.cardback{
+    height: 650px;
+    width: 350px;
+    background-image: linear-gradient(#343434,black);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+.cardfront{
+    height: 650px;
+    width: 350px;
+    background-image: linear-gradient(#343434,black);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+.fadetext{
+    color: #ADADAD;
+    font-size: 12px;
+}
+

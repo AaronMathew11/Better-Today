@@ -1,0 +1,7 @@
+@media screen and (max-width: 1221px){
+    .pokerow{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
