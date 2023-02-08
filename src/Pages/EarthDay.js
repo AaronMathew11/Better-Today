@@ -7,25 +7,9 @@ function EarthDay() {
   return (
     <div style={{ backgroundColor: "#E7E7E7" }}>
       <Navbar />
-      <div
-        className='content'
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          padding: "100px",
-        }}
-      >
+      <div className='content'>
         <div
-          className='content'
-          style={{
-            backgroundColor: "white",
-            padding: "50px",
-            borderRadius: "30px",
-            marginRight: "80px",
-            height: "75vh",
-            overflowY: "scroll",
-            color: "black",
-          }}
+          className='textblock'
         >
           <h1>Earth Day</h1>
           <p>
@@ -102,7 +86,7 @@ function EarthDay() {
             warming.
           </p>
         </div>
-        <div style={{ marginRight: "70px" }}>
+        <div className='card'>
           <Card />
         </div>
       </div>

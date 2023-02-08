@@ -3,14 +3,52 @@ h1,h2{
     margin-bottom: 40px;
 }
 
-.content::-webkit-scrollbar{
+.textblock{
+    margin-bottom: 70px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+    margin-right: 80px;
+    height: 75vh;
+    width: 60vw;
+    overflow-y: scroll;
+    color: black;
+}
+
+.textblock::-webkit-scrollbar{
     display: none;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.card{
+    margin-right: 70px ;
 }
 
 @media screen and (max-width: 981px){
     .content{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
+        margin-top: -30px;
+    }
+    .textblock{
         margin-bottom: 70px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 30px;
+        margin-right: 0px;
+        height: 75vh;
+        width: 80vw;
+        overflow-y: scroll;
+        color: black;
+    }
+    .card{
+       margin: 0px;
     }
 }

@@ -14,8 +14,8 @@ function Navbar() {
           />
         </a>
         <div style={{marginRight:"30px"}}>
-        <Link to='/'style={{marginRight:"30px", textDecoration:"none", color:"black"}}>EarthDay Card</Link>
-        <Link to='/Pokemon' style={{textDecoration:"none", color:"black"}}>Pokemon Cards</Link>
+        <Link to='/'style={{marginRight:"30px", textDecoration:"none", color:"black"}}>EarthDay</Link>
+        <Link to='/Pokemon' style={{textDecoration:"none", color:"black"}}>Pokemon</Link>
         </div>
      
       </nav>
