@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Better-Today/static/css/main.17d2c785.css",
+    "main.js": "/Better-Today/static/js/main.5961a166.js",
+    "static/js/787.215d4294.chunk.js": "/Better-Today/static/js/787.215d4294.chunk.js",
+    "static/media/earth.png": "/Better-Today/static/media/earth.173f1b974c36bd24e6b5.png",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/Better-Today/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
+    "static/media/char.png": "/Better-Today/static/media/char.acb17f319a2572138ba9.png",
+    "static/media/Blast.png": "/Better-Today/static/media/Blast.544170e31508c99728f5.png",
+    "static/media/planting.png": "/Better-Today/static/media/planting.fba388a7a1c48a3c9384.png",
+    "static/media/Bulb.png": "/Better-Today/static/media/Bulb.9f74450bf18e67e61edf.png",
+    "static/media/poke.png": "/Better-Today/static/media/poke.70b0d1461ad1f2a2e51d.png",
+    "static/media/Fountain free-Regular.ttf": "/Better-Today/static/media/Fountain free-Regular.60ae488be810940133eb.ttf",
+    "static/media/call.png": "/Better-Today/static/media/call.3e9cc998d9491cd2d587.png",
+    "static/media/logo.png": "/Better-Today/static/media/logo.e517c8d4c45a06a26d43.png",
+    "index.html": "/Better-Today/index.html",
+    "main.17d2c785.css.map": "/Better-Today/static/css/main.17d2c785.css.map",
+    "main.5961a166.js.map": "/Better-Today/static/js/main.5961a166.js.map",
+    "787.215d4294.chunk.js.map": "/Better-Today/static/js/787.215d4294.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17d2c785.css",
+    "static/js/main.5961a166.js"
+  ]
+}
