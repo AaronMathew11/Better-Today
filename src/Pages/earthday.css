@@ -29,7 +29,7 @@ h1,h2{
     margin-right: 70px ;
 }
 
-@media screen and (max-width: 981px){
+@media screen and (max-width: 1689px){
     .content{
         display: flex;
         flex-direction: column;
